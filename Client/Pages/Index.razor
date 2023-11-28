@@ -1,9 +1,57 @@
 ﻿@page "/"
 
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Comic Sans';
+    }
+
+    .container {
+        max-width: 800px;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .image{
+        width:45%;
+        margin:1%;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 10em;
+    }
+    @*meaning Paragraph, em = measurement*@
+    p {
+        font-size: 1.5em;
+        line-height: 1.6;
+    }
+    
+
+    }
+</style>
+
+<div class="container">
+    <h1>Welcome to the Main Page</h1>
+    <p>This is something.... idk...</p>
+    <h2>Hello World</h2>
+    <div class="image-container">
+        <img src="https://t3.ftcdn.net/jpg/02/09/65/14/360_F_209651427_Moux8Hkey15wtMbtLymbPPrdrLhm58fH.jpg" alt="Image 1" class="image">
+        <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?cs=srgb&dl=pexels-pixabay-87651.jpg&fm=jpg" alt="Image 2" class="image">
+    </div>
+</div>
+
+
+@*@page "/"
+
 <PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
 
+
 Welcome to the first page of our project interface
-
-
+*@
